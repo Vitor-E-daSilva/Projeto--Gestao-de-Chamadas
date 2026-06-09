@@ -1,3 +1,5 @@
+using Projeto___Gestão_de_Chamadas.Forms;
+
 namespace Projeto___Gestão_de_Chamadas
 {
     internal static class Program
@@ -11,7 +13,7 @@ namespace Projeto___Gestão_de_Chamadas
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FormCliente());
+            Application.Run(new FormPrincipal());
         }
     }
 }

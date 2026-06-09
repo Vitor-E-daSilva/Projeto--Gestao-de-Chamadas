@@ -20,11 +20,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Database.mdf" />
     <None Remove="Database1.mdf" />
     <None Remove="Database1_log.ldf" />
+    <None Remove="Database_log.ldf" />
     <None Remove="DataSet1.xsc" />
     <None Remove="DataSet1.xsd" />
     <None Remove="DataSet1.xss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
